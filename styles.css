@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#likeBtn, #dislikeBtn {
+    padding: 0 5%;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#submit, #clear {
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#clear {
+    background-color: #f44336;
+}
+
+#commentBox {
+    width: 35%;
+    height: 100px;
+    display: block;
+    margin: auto;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
